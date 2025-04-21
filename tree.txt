@@ -1,0 +1,85 @@
+.
+├── next.config.mjs
+├── package-lock.json
+├── package.json
+├── pages
+│   ├── _app.tsx
+│   ├── _document.tsx
+│   ├── [locale]
+│   │   ├── (auth)
+│   │   │   ├── login
+│   │   │   │   └── index.tsx
+│   │   │   └── register
+│   │   │       └── index.tsx
+│   │   └── component-example
+│   │       └── index.tsx
+│   └── index.tsx
+├── public
+│   ├── favicon.ico
+│   └── static
+│       └── exampleImage.svg
+├── README.md
+├── src
+│   ├── @common
+│   │   ├── __mocks__
+│   │   │   └── exampleMock.ts
+│   │   ├── __tests__
+│   │   │   └── ExampleTest.test.tsx
+│   │   ├── components
+│   │   │   └── ExampleComponent.tsx
+│   │   ├── constants
+│   │   │   ├── apiEndpoints.ts
+│   │   │   └── exampleConstants.ts
+│   │   ├── containers
+│   │   │   └── ComponentExamplePageContainer.tsx
+│   │   ├── contexts
+│   │   │   └── ExampleContext.tsx
+│   │   ├── HOCs
+│   │   │   ├── createPage.ts
+│   │   │   └── withTracker.ts
+│   │   ├── hooks
+│   │   │   └── useExampleHooks.ts
+│   │   ├── mutations
+│   │   │   └── useUpdateExample.ts
+│   │   ├── queries
+│   │   │   └── useFetchExample.ts
+│   │   ├── schema
+│   │   │   └── exampleSchema.ts
+│   │   ├── types
+│   │   │   └── api.ts
+│   │   └── utils
+│   │       └── exampleUtil.ts
+│   ├── auth
+│   │   ├── login
+│   │   │   └── components
+│   │   │       └── ExampleLoginComponent.tsx
+│   │   └── register
+│   │       └── components
+│   │           └── ExampleRegisterComponent.tsx
+│   └── module-example
+│       ├── __mocks__
+│       │   └── exampleMock.ts
+│       ├── __tests__
+│       │   └── ExampleTest.test.tsx
+│       ├── components
+│       │   └── ComponentExamplePage.tsx
+│       ├── constants
+│       │   └── ExampleConstants.ts
+│       ├── containers
+│       │   └── ComponentExamplePageContainer.tsx
+│       ├── contexts
+│       │   └── ExampleContext.tsx
+│       ├── hooks
+│       │   └── useExampleHook.ts
+│       ├── mutations
+│       │   └── useUpdateExample.ts
+│       ├── queries
+│       │   └── useFetchExample.ts
+│       ├── schema
+│       │   └── exampleSchema.ts
+│       └── utils
+│           └── exampleUtil.ts
+├── tree.txt
+└── tsconfig.json
+
+41 directories, 42 files
